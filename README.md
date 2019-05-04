@@ -4,8 +4,8 @@ An iOS client for ldjam.com
 
 # Screenshots
 
-![Screenshot 1](http://brodyeller.com/images/ld_ios_screenshot_01.png)
-![Screenshot 2](http://brodyeller.com/images/ld_ios_screenshot_02.png)
+<img src="http://brodyeller.com/images/ld_ios_screenshot_01.png" width="50%">
+<img src="http://brodyeller.com/images/ld_ios_screenshot_02.png" width="50%">
 
 # Features
 
