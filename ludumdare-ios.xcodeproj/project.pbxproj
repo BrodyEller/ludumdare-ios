@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF419CC8227B605D009BDA2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF419CC7227B605D009BDA2D /* AppDelegate.swift */; };
+		AF419CCA227B605D009BDA2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF419CC9227B605D009BDA2D /* ViewController.swift */; };
+		AF419CCD227B605D009BDA2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF419CCB227B605D009BDA2D /* Main.storyboard */; };
+		AF419CCF227B605F009BDA2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF419CCE227B605F009BDA2D /* Assets.xcassets */; };
+		AF419CD2227B605F009BDA2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF419CD0227B605F009BDA2D /* LaunchScreen.storyboard */; };
+		AF419CDB227B8822009BDA2D /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF419CDA227B8822009BDA2D /* Feed.swift */; };
+		AF534A4F227BBAD400E1D5FA /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF534A4E227BBAD400E1D5FA /* Node.swift */; };
+		AF534A54227BDA4B00E1D5FA /* NodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF534A53227BDA4B00E1D5FA /* NodeTableViewCell.swift */; };
+		AF534A56227BF2CF00E1D5FA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF534A55227BF2CF00E1D5FA /* DetailViewController.swift */; };
+		AF7788E9227D157E007C459F /* NodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7788E8227D157E007C459F /* NodeView.swift */; };
+		AF7788EB227D3AB2007C459F /* NodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF7788EA227D3AB2007C459F /* NodeView.xib */; };
+		AF7788ED227D40EA007C459F /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7788EC227D40EA007C459F /* NibLoadable.swift */; };
+		B90FE43EA659632FA6C30CF5 /* Pods_ludumdare_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B3D91F16AF097AFDAA14F9 /* Pods_ludumdare_ios.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A0436B33967EEB282871D69 /* Pods-ludumdare-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ludumdare-ios.debug.xcconfig"; path = "Target Support Files/Pods-ludumdare-ios/Pods-ludumdare-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		42B3D91F16AF097AFDAA14F9 /* Pods_ludumdare_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ludumdare_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73D0DA6DF82CF1BB377E90F9 /* Pods-ludumdare-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ludumdare-ios.release.xcconfig"; path = "Target Support Files/Pods-ludumdare-ios/Pods-ludumdare-ios.release.xcconfig"; sourceTree = "<group>"; };
+		AF419CC4227B605D009BDA2D /* ludumdare-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ludumdare-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF419CC7227B605D009BDA2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF419CC9227B605D009BDA2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF419CCC227B605D009BDA2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF419CCE227B605F009BDA2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF419CD1227B605F009BDA2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF419CD3227B605F009BDA2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF419CDA227B8822009BDA2D /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		AF534A4E227BBAD400E1D5FA /* Node.swift */ = {isa = PBXFileReference; indentWidth = 3; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		AF534A53227BDA4B00E1D5FA /* NodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeTableViewCell.swift; sourceTree = "<group>"; };
+		AF534A55227BF2CF00E1D5FA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
+		AF7788E8227D157E007C459F /* NodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeView.swift; sourceTree = "<group>"; };
+		AF7788EA227D3AB2007C459F /* NodeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NodeView.xib; sourceTree = "<group>"; };
+		AF7788EC227D40EA007C459F /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF419CC1227B605D009BDA2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90FE43EA659632FA6C30CF5 /* Pods_ludumdare_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		293E778B220BD363A74AC7ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42B3D91F16AF097AFDAA14F9 /* Pods_ludumdare_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49BDD3B6823A362D24074735 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A0436B33967EEB282871D69 /* Pods-ludumdare-ios.debug.xcconfig */,
+				73D0DA6DF82CF1BB377E90F9 /* Pods-ludumdare-ios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF419CBB227B605D009BDA2D = {
+			isa = PBXGroup;
+			children = (
+				AF419CC6227B605D009BDA2D /* ludumdare-ios */,
+				AF419CC5227B605D009BDA2D /* Products */,
+				49BDD3B6823A362D24074735 /* Pods */,
+				293E778B220BD363A74AC7ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF419CC5227B605D009BDA2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF419CC4227B605D009BDA2D /* ludumdare-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF419CC6227B605D009BDA2D /* ludumdare-ios */ = {
+			isa = PBXGroup;
+			children = (
+				AF534A50227BDA0100E1D5FA /* Model */,
+				AF534A51227BDA0600E1D5FA /* View */,
+				AF534A52227BDA0C00E1D5FA /* Controller */,
+				AF419CC7227B605D009BDA2D /* AppDelegate.swift */,
+				AF419CCB227B605D009BDA2D /* Main.storyboard */,
+				AF419CCE227B605F009BDA2D /* Assets.xcassets */,
+				AF419CD0227B605F009BDA2D /* LaunchScreen.storyboard */,
+				AF419CD3227B605F009BDA2D /* Info.plist */,
+			);
+			path = "ludumdare-ios";
+			sourceTree = "<group>";
+		};
+		AF534A50227BDA0100E1D5FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF534A4E227BBAD400E1D5FA /* Node.swift */,
+				AF419CDA227B8822009BDA2D /* Feed.swift */,
+				AF7788EC227D40EA007C459F /* NibLoadable.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF534A51227BDA0600E1D5FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF534A53227BDA4B00E1D5FA /* NodeTableViewCell.swift */,
+				AF7788E8227D157E007C459F /* NodeView.swift */,
+				AF7788EA227D3AB2007C459F /* NodeView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF534A52227BDA0C00E1D5FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF419CC9227B605D009BDA2D /* ViewController.swift */,
+				AF534A55227BF2CF00E1D5FA /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF419CC3227B605D009BDA2D /* ludumdare-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF419CD6227B605F009BDA2D /* Build configuration list for PBXNativeTarget "ludumdare-ios" */;
+			buildPhases = (
+				0109959CEF21C74214B964FD /* [CP] Check Pods Manifest.lock */,
+				AF419CC0227B605D009BDA2D /* Sources */,
+				AF419CC1227B605D009BDA2D /* Frameworks */,
+				AF419CC2227B605D009BDA2D /* Resources */,
+				B3A780DB7FD67AC40C03069B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ludumdare-ios";
+			productName = LudumDare;
+			productReference = AF419CC4227B605D009BDA2D /* ludumdare-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF419CBC227B605D009BDA2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Brody Eller";
+				TargetAttributes = {
+					AF419CC3227B605D009BDA2D = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = AF419CBF227B605D009BDA2D /* Build configuration list for PBXProject "ludumdare-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF419CBB227B605D009BDA2D;
+			productRefGroup = AF419CC5227B605D009BDA2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF419CC3227B605D009BDA2D /* ludumdare-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF419CC2227B605D009BDA2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF419CD2227B605F009BDA2D /* LaunchScreen.storyboard in Resources */,
+				AF419CCF227B605F009BDA2D /* Assets.xcassets in Resources */,
+				AF7788EB227D3AB2007C459F /* NodeView.xib in Resources */,
+				AF419CCD227B605D009BDA2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0109959CEF21C74214B964FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ludumdare-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3A780DB7FD67AC40C03069B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ludumdare-ios/Pods-ludumdare-ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Down/Down.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Down.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ludumdare-ios/Pods-ludumdare-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF419CC0227B605D009BDA2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF419CCA227B605D009BDA2D /* ViewController.swift in Sources */,
+				AF7788ED227D40EA007C459F /* NibLoadable.swift in Sources */,
+				AF534A54227BDA4B00E1D5FA /* NodeTableViewCell.swift in Sources */,
+				AF419CDB227B8822009BDA2D /* Feed.swift in Sources */,
+				AF534A56227BF2CF00E1D5FA /* DetailViewController.swift in Sources */,
+				AF419CC8227B605D009BDA2D /* AppDelegate.swift in Sources */,
+				AF7788E9227D157E007C459F /* NodeView.swift in Sources */,
+				AF534A4F227BBAD400E1D5FA /* Node.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF419CCB227B605D009BDA2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF419CCC227B605D009BDA2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF419CD0227B605F009BDA2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF419CD1227B605F009BDA2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF419CD4227B605F009BDA2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF419CD5227B605F009BDA2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF419CD7227B605F009BDA2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A0436B33967EEB282871D69 /* Pods-ludumdare-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J25XBYXZ8U;
+				INFOPLIST_FILE = "ludumdare-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brodyeller.LudumDare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF419CD8227B605F009BDA2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73D0DA6DF82CF1BB377E90F9 /* Pods-ludumdare-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J25XBYXZ8U;
+				INFOPLIST_FILE = "ludumdare-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brodyeller.LudumDare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF419CBF227B605D009BDA2D /* Build configuration list for PBXProject "ludumdare-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF419CD4227B605F009BDA2D /* Debug */,
+				AF419CD5227B605F009BDA2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF419CD6227B605F009BDA2D /* Build configuration list for PBXNativeTarget "ludumdare-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF419CD7227B605F009BDA2D /* Debug */,
+				AF419CD8227B605F009BDA2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF419CBC227B605D009BDA2D /* Project object */;
+}
