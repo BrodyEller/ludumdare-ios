@@ -2,10 +2,10 @@
 
 An iOS client for ldjam.com
 
-# Screenshot
+# Screenshots
 
-![Screenshot 1] (http://brodyeller.com/images/ld_ios_screenshot_01.png)
-![Screenshot 2] (http://brodyeller.com/images/ld_ios_screenshot_02.png)
+![Screenshot 1](http://brodyeller.com/images/ld_ios_screenshot_01.png)
+![Screenshot 2](http://brodyeller.com/images/ld_ios_screenshot_02.png)
 
 # Features
 
