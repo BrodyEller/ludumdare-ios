@@ -7,13 +7,20 @@
 //
 
 import UIKit
-import Down
 
 @IBDesignable
 class NodeView: UIStackView, NibLoadable {
   @IBOutlet weak var titleLabel: UILabel!
   @IBOutlet weak var authorLabel: UILabel!
-  @IBOutlet weak var bodyStackView: UIStackView!
+  @IBOutlet weak var bodyTextView: UITextView!
+  
+  var node: Node! {
+    didSet {
+      titleLabel.text = node.name
+      authorLabel.text = node.author.description
+      bodyTextView.attributedText = node.body
+    }
+  }
   
   public override init(frame: CGRect) {
     super.init(frame: frame)

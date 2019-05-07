@@ -19,5 +19,6 @@ class DetailViewController: UIViewController {
     
     nodeView.titleLabel.text = node.name
     nodeView.authorLabel.text = node.author.description
+    nodeView.bodyTextView.attributedText = node.body
   }
 }

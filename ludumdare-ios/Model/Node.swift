@@ -6,6 +6,7 @@
 //  Copyright © 2019 Brody Eller. All rights reserved.
 //
 import SwiftyJSON
+import Down
 
 struct Node {
    var id: Int
@@ -21,7 +22,7 @@ struct Node {
    var version: Int
    var slug: String
    var name: String
-   var body: String
+   var body: NSAttributedString
    var meta: [JSON] // Not sure what the function of meta is so it has [JSON] type for now
    var path: String
    var parents: [Int]
@@ -44,7 +45,7 @@ struct Node {
       version = json["version"].intValue
       slug = json["slug"].stringValue
       name = json["name"].stringValue
-      body = json["body"].stringValue.replacingOccurrences(of: "///", with: "https://static.jam.vg/")
+      body = try! Down(markdownString: json["body"].stringValue.replacingOccurrences(of: "///", with: "https://static.jam.vg/")).toAttributedString()
       meta = json["meta"].arrayValue // Not sure what the function of meta is so it has [JSON] type for now
       path = json["path"].stringValue
       parents = json["parents"].arrayValue.map{ $0.intValue }

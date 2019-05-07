@@ -13,7 +13,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NodeView" customModule="ludumdare_ios" customModuleProvider="target">
             <connections>
                 <outlet property="authorLabel" destination="HRQ-2j-NSa" id="PDL-3V-i57"/>
-                <outlet property="bodyStackView" destination="ncg-KJ-Riq" id="XBF-uT-Y9T"/>
+                <outlet property="bodyTextView" destination="DkK-Po-xxi" id="0pG-bd-u6G"/>
                 <outlet property="titleLabel" destination="K5e-ih-zdy" id="qED-tr-Ile"/>
             </connections>
         </placeholder>
@@ -32,21 +32,25 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="author" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRQ-2j-NSa">
-                    <rect key="frame" x="0.0" y="50" width="500" height="20.5"/>
+                    <rect key="frame" x="0.0" y="335" width="500" height="20.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ncg-KJ-Riq">
-                    <rect key="frame" x="0.0" y="70.5" width="500" height="702.5"/>
-                </stackView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DkK-Po-xxi">
+                    <rect key="frame" x="0.0" y="640" width="500" height="133"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <attributedString key="attributedText">
+                        <fragment>
+                            <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                            <attributes>
+                                <font key="NSFont" metaFont="system" size="14"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
             </subviews>
-            <constraints>
-                <constraint firstItem="ncg-KJ-Riq" firstAttribute="leading" secondItem="Z7I-JQ-ZEC" secondAttribute="leading" id="11K-bD-681"/>
-                <constraint firstItem="ncg-KJ-Riq" firstAttribute="top" secondItem="HRQ-2j-NSa" secondAttribute="bottom" id="GGG-ue-fTw"/>
-                <constraint firstAttribute="bottom" secondItem="ncg-KJ-Riq" secondAttribute="bottom" id="PeC-ug-hKS"/>
-                <constraint firstItem="ncg-KJ-Riq" firstAttribute="trailing" secondItem="Z7I-JQ-ZEC" secondAttribute="trailing" id="Wgl-3D-IfD"/>
-            </constraints>
             <viewLayoutGuide key="safeArea" id="Z7I-JQ-ZEC"/>
             <point key="canvasLocation" x="253.62318840579712" y="105.46875"/>
         </stackView>
